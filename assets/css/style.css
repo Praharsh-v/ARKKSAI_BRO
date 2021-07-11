@@ -262,14 +262,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 table, th, td {
- border: 2px solid black;
+ /*border: 1px solid black;*/
     border-collapse: collapse;
     margin: 86px;
   }
 
 th, td {
   padding: 7px;
+  border: 1px solid black;
 }
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid black;}
 
 .hiddenRow {
     padding: 0 !important;
